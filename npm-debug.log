@@ -1,0 +1,889 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt-karma',
+1 verbose cli   'karma-ng-html2js-preprocessor',
+1 verbose cli   'karma-ng-scenario',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose node symlink /usr/bin/node
+5 warn package.json angnews@0.0.0 No description
+6 warn package.json angnews@0.0.0 No repository field.
+7 warn package.json angnews@0.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'grunt-karma', null ]
+10 verbose cache add name=undefined spec="grunt-karma" args=["grunt-karma",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'grunt-karma',
+11 verbose parsed url   path: 'grunt-karma',
+11 verbose parsed url   href: 'grunt-karma' }
+12 verbose cache add [ 'karma-ng-html2js-preprocessor', null ]
+13 verbose cache add name=undefined spec="karma-ng-html2js-preprocessor" args=["karma-ng-html2js-preprocessor",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'karma-ng-html2js-preprocessor',
+14 verbose parsed url   path: 'karma-ng-html2js-preprocessor',
+14 verbose parsed url   href: 'karma-ng-html2js-preprocessor' }
+15 verbose cache add [ 'karma-ng-scenario', null ]
+16 verbose cache add name=undefined spec="karma-ng-scenario" args=["karma-ng-scenario",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'karma-ng-scenario',
+17 verbose parsed url   path: 'karma-ng-scenario',
+17 verbose parsed url   href: 'karma-ng-scenario' }
+18 silly lockFile 707ccff9-grunt-karma grunt-karma
+19 verbose lock grunt-karma /home/arpit/.npm/707ccff9-grunt-karma.lock
+20 silly lockFile 18de6d31-karma-ng-html2js-preprocessor karma-ng-html2js-preprocessor
+21 verbose lock karma-ng-html2js-preprocessor /home/arpit/.npm/18de6d31-karma-ng-html2js-preprocessor.lock
+22 silly lockFile e5bca250-karma-ng-scenario karma-ng-scenario
+23 verbose lock karma-ng-scenario /home/arpit/.npm/e5bca250-karma-ng-scenario.lock
+24 silly lockFile 707ccff9-grunt-karma grunt-karma
+25 silly lockFile 707ccff9-grunt-karma grunt-karma
+26 silly lockFile 18de6d31-karma-ng-html2js-preprocessor karma-ng-html2js-preprocessor
+27 silly lockFile 18de6d31-karma-ng-html2js-preprocessor karma-ng-html2js-preprocessor
+28 silly lockFile e5bca250-karma-ng-scenario karma-ng-scenario
+29 silly lockFile e5bca250-karma-ng-scenario karma-ng-scenario
+30 verbose addNamed [ 'grunt-karma', '' ]
+31 verbose addNamed [ null, '*' ]
+32 silly lockFile 94531edb-grunt-karma grunt-karma@
+33 verbose lock grunt-karma@ /home/arpit/.npm/94531edb-grunt-karma.lock
+34 verbose addNamed [ 'karma-ng-html2js-preprocessor', '' ]
+35 verbose addNamed [ null, '*' ]
+36 silly lockFile 9f59274a-karma-ng-html2js-preprocessor karma-ng-html2js-preprocessor@
+37 verbose lock karma-ng-html2js-preprocessor@ /home/arpit/.npm/9f59274a-karma-ng-html2js-preprocessor.lock
+38 verbose addNamed [ 'karma-ng-scenario', '' ]
+39 verbose addNamed [ null, '*' ]
+40 silly lockFile 4f100e2f-karma-ng-scenario karma-ng-scenario@
+41 verbose lock karma-ng-scenario@ /home/arpit/.npm/4f100e2f-karma-ng-scenario.lock
+42 silly addNameRange { name: 'grunt-karma', range: '*', hasData: false }
+43 silly addNameRange { name: 'karma-ng-html2js-preprocessor',
+43 silly addNameRange   range: '*',
+43 silly addNameRange   hasData: false }
+44 silly addNameRange { name: 'karma-ng-scenario', range: '*', hasData: false }
+45 verbose url raw grunt-karma
+46 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-karma' ]
+47 verbose url resolved https://registry.npmjs.org/grunt-karma
+48 info trying registry request attempt 1 at 15:14:56
+49 verbose etag "F1N8TGZUY14SDX7S9AO88JIZF"
+50 http GET https://registry.npmjs.org/grunt-karma
+51 verbose url raw karma-ng-html2js-preprocessor
+52 verbose url resolving [ 'https://registry.npmjs.org/',
+52 verbose url resolving   './karma-ng-html2js-preprocessor' ]
+53 verbose url resolved https://registry.npmjs.org/karma-ng-html2js-preprocessor
+54 info trying registry request attempt 1 at 15:14:56
+55 verbose etag "CGV6DPBV1CN56ZZN6CV03MDRW"
+56 http GET https://registry.npmjs.org/karma-ng-html2js-preprocessor
+57 verbose url raw karma-ng-scenario
+58 verbose url resolving [ 'https://registry.npmjs.org/', './karma-ng-scenario' ]
+59 verbose url resolved https://registry.npmjs.org/karma-ng-scenario
+60 info trying registry request attempt 1 at 15:14:56
+61 verbose etag "BD81HL678V7ROP3Q78JSBWK7S"
+62 http GET https://registry.npmjs.org/karma-ng-scenario
+63 http 304 https://registry.npmjs.org/grunt-karma
+64 silly registry.get cb [ 304,
+64 silly registry.get   { date: 'Tue, 11 Mar 2014 09:45:26 GMT',
+64 silly registry.get     server: 'Apache',
+64 silly registry.get     via: '1.1 varnish',
+64 silly registry.get     'last-modified': 'Tue, 11 Mar 2014 09:45:26 GMT',
+64 silly registry.get     'cache-control': 'max-age=1',
+64 silly registry.get     etag: '"F1N8TGZUY14SDX7S9AO88JIZF"',
+64 silly registry.get     'x-served-by': 'cache-sv60-SJC3',
+64 silly registry.get     'x-cache': 'HIT',
+64 silly registry.get     'x-cache-hits': '1',
+64 silly registry.get     'x-timer': 'S1394531126.567460775,VS0,VE76',
+64 silly registry.get     vary: 'Accept',
+64 silly registry.get     'content-length': '0',
+64 silly registry.get     'keep-alive': 'timeout=10, max=50',
+64 silly registry.get     connection: 'Keep-Alive' } ]
+65 verbose etag grunt-karma from cache
+66 http 304 https://registry.npmjs.org/karma-ng-scenario
+67 silly registry.get cb [ 304,
+67 silly registry.get   { date: 'Tue, 11 Mar 2014 09:45:26 GMT',
+67 silly registry.get     server: 'Apache',
+67 silly registry.get     via: '1.1 varnish',
+67 silly registry.get     'last-modified': 'Tue, 11 Mar 2014 09:45:26 GMT',
+67 silly registry.get     'cache-control': 'max-age=1',
+67 silly registry.get     etag: '"BD81HL678V7ROP3Q78JSBWK7S"',
+67 silly registry.get     'x-served-by': 'cache-sv95-SJC3',
+67 silly registry.get     'x-cache': 'MISS',
+67 silly registry.get     'x-cache-hits': '0',
+67 silly registry.get     'x-timer': 'S1394531126.575534105,VS0,VE75',
+67 silly registry.get     vary: 'Accept',
+67 silly registry.get     'content-length': '0',
+67 silly registry.get     'keep-alive': 'timeout=10, max=50',
+67 silly registry.get     connection: 'Keep-Alive' } ]
+68 verbose etag karma-ng-scenario from cache
+69 silly addNameRange number 2 { name: 'karma-ng-scenario', range: '*', hasData: true }
+70 silly addNameRange versions [ 'karma-ng-scenario', [ '0.0.1', '0.0.2', '0.1.0' ] ]
+71 verbose addNamed [ 'karma-ng-scenario', '0.1.0' ]
+72 verbose addNamed [ '0.1.0', '0.1.0' ]
+73 silly lockFile f90b10d8-karma-ng-scenario-0-1-0 karma-ng-scenario@0.1.0
+74 verbose lock karma-ng-scenario@0.1.0 /home/arpit/.npm/f90b10d8-karma-ng-scenario-0-1-0.lock
+75 silly addNameRange number 2 { name: 'grunt-karma', range: '*', hasData: true }
+76 silly addNameRange versions [ 'grunt-karma',
+76 silly addNameRange   [ '0.3.0',
+76 silly addNameRange     '0.4.0',
+76 silly addNameRange     '0.4.1',
+76 silly addNameRange     '0.4.2',
+76 silly addNameRange     '0.4.3',
+76 silly addNameRange     '0.4.4',
+76 silly addNameRange     '0.5.0',
+76 silly addNameRange     '0.4.5',
+76 silly addNameRange     '0.5.1',
+76 silly addNameRange     '0.5.2',
+76 silly addNameRange     '0.4.6',
+76 silly addNameRange     '0.5.3',
+76 silly addNameRange     '0.5.4',
+76 silly addNameRange     '0.6.0',
+76 silly addNameRange     '0.6.1',
+76 silly addNameRange     '0.7.0',
+76 silly addNameRange     '0.6.2',
+76 silly addNameRange     '0.7.1',
+76 silly addNameRange     '0.7.2' ] ]
+77 verbose addNamed [ 'grunt-karma', '0.6.2' ]
+78 verbose addNamed [ '0.6.2', '0.6.2' ]
+79 silly lockFile 5237908c-grunt-karma-0-6-2 grunt-karma@0.6.2
+80 verbose lock grunt-karma@0.6.2 /home/arpit/.npm/5237908c-grunt-karma-0-6-2.lock
+81 http 304 https://registry.npmjs.org/karma-ng-html2js-preprocessor
+82 silly registry.get cb [ 304,
+82 silly registry.get   { date: 'Tue, 11 Mar 2014 09:45:26 GMT',
+82 silly registry.get     server: 'Apache',
+82 silly registry.get     via: '1.1 varnish',
+82 silly registry.get     'last-modified': 'Tue, 11 Mar 2014 09:45:26 GMT',
+82 silly registry.get     'cache-control': 'max-age=1',
+82 silly registry.get     etag: '"CGV6DPBV1CN56ZZN6CV03MDRW"',
+82 silly registry.get     'x-served-by': 'cache-sv63-SJC3',
+82 silly registry.get     'x-cache': 'HIT',
+82 silly registry.get     'x-cache-hits': '1',
+82 silly registry.get     'x-timer': 'S1394531126.542713642,VS0,VE348',
+82 silly registry.get     vary: 'Accept',
+82 silly registry.get     'content-length': '0',
+82 silly registry.get     'keep-alive': 'timeout=10, max=50',
+82 silly registry.get     connection: 'Keep-Alive' } ]
+83 verbose etag karma-ng-html2js-preprocessor from cache
+84 silly addNameRange number 2 { name: 'karma-ng-html2js-preprocessor',
+84 silly addNameRange   range: '*',
+84 silly addNameRange   hasData: true }
+85 silly addNameRange versions [ 'karma-ng-html2js-preprocessor',
+85 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.1.0' ] ]
+86 verbose addNamed [ 'karma-ng-html2js-preprocessor', '0.1.0' ]
+87 verbose addNamed [ '0.1.0', '0.1.0' ]
+88 silly lockFile b1e18fdd-ma-ng-html2js-preprocessor-0-1-0 karma-ng-html2js-preprocessor@0.1.0
+89 verbose lock karma-ng-html2js-preprocessor@0.1.0 /home/arpit/.npm/b1e18fdd-ma-ng-html2js-preprocessor-0-1-0.lock
+90 silly lockFile f90b10d8-karma-ng-scenario-0-1-0 karma-ng-scenario@0.1.0
+91 silly lockFile f90b10d8-karma-ng-scenario-0-1-0 karma-ng-scenario@0.1.0
+92 silly lockFile 4f100e2f-karma-ng-scenario karma-ng-scenario@
+93 silly lockFile 4f100e2f-karma-ng-scenario karma-ng-scenario@
+94 silly lockFile 5237908c-grunt-karma-0-6-2 grunt-karma@0.6.2
+95 silly lockFile 5237908c-grunt-karma-0-6-2 grunt-karma@0.6.2
+96 silly lockFile 94531edb-grunt-karma grunt-karma@
+97 silly lockFile 94531edb-grunt-karma grunt-karma@
+98 silly lockFile b1e18fdd-ma-ng-html2js-preprocessor-0-1-0 karma-ng-html2js-preprocessor@0.1.0
+99 silly lockFile b1e18fdd-ma-ng-html2js-preprocessor-0-1-0 karma-ng-html2js-preprocessor@0.1.0
+100 silly lockFile 9f59274a-karma-ng-html2js-preprocessor karma-ng-html2js-preprocessor@
+101 silly lockFile 9f59274a-karma-ng-html2js-preprocessor karma-ng-html2js-preprocessor@
+102 silly resolved [ { name: 'karma-ng-scenario',
+102 silly resolved     version: '0.1.0',
+102 silly resolved     description: 'A Karma plugin. Adapter for Angular\'s Scenario Runner.',
+102 silly resolved     main: 'lib/index.js',
+102 silly resolved     scripts: { test: 'grunt test' },
+102 silly resolved     repository:
+102 silly resolved      { type: 'git',
+102 silly resolved        url: 'git://github.com/karma-runner/karma-ng-scenario.git' },
+102 silly resolved     keywords:
+102 silly resolved      [ 'karma-plugin',
+102 silly resolved        'karma-adapter',
+102 silly resolved        'angular',
+102 silly resolved        'e2e',
+102 silly resolved        'scenario-runner' ],
+102 silly resolved     author: { name: 'Vojta Jina', email: 'vojta.jina@gmail.com' },
+102 silly resolved     dependencies: {},
+102 silly resolved     devDependencies:
+102 silly resolved      { grunt: '~0.4.1',
+102 silly resolved        'grunt-contrib-jshint': '~0.6',
+102 silly resolved        karma: '~0.9',
+102 silly resolved        'karma-jasmine': '*',
+102 silly resolved        'karma-chrome-launcher': '*',
+102 silly resolved        'karma-firefox-launcher': '*',
+102 silly resolved        'grunt-karma': '~0.4',
+102 silly resolved        'grunt-bump': '~0.0.11',
+102 silly resolved        'grunt-npm': '~0.0.2',
+102 silly resolved        'grunt-auto-release': '~0.0.3' },
+102 silly resolved     peerDependencies: { karma: '>=0.9' },
+102 silly resolved     license: 'MIT',
+102 silly resolved     readme: '# karma-ng-scenario [![Build Status](https://travis-ci.org/karma-runner/karma-ng-scenario.png?branch=master)](https://travis-ci.org/karma-runner/karma-ng-scenario)\n\n> Adapter for the AngularJS Scenario Runner.\n\n**If you are starting a new project, we recommend using [Protractor] for e2e testing AngularJS projects.**\n\n## Installation\n\nThe easiest way is to keep `karma-ng-scenario` as a devDependency in your `package.json`.\n```json\n{\n  "devDependencies": {\n    "karma": "~0.10",\n    "karma-ng-scenario": "~0.1"\n  }\n}\n```\n\nYou can simple do it by:\n```bash\nnpm install karma-ng-scenario --save-dev\n```\n\n## Configuration\nFollowing code shows the default configuration...\n```js\n// karma.conf.js\nmodule.exports = function(config) {\n  config.set({\n    frameworks: [\'ng-scenario\'],\n\n    files: [\n      \'*.js\'\n    ]\n  });\n};\n```\n\n----\n\nFor more information on Karma see the [homepage].\n\n\n[homepage]: http://karma-runner.github.com\n[Protractor]: https://github.com/angular/protractor\n',
+102 silly resolved     readmeFilename: 'README.md',
+102 silly resolved     bugs: { url: 'https://github.com/karma-runner/karma-ng-scenario/issues' },
+102 silly resolved     _id: 'karma-ng-scenario@0.1.0',
+102 silly resolved     _from: 'karma-ng-scenario@' },
+102 silly resolved   { name: 'grunt-karma',
+102 silly resolved     version: '0.6.2',
+102 silly resolved     description: 'grunt plugin for karma test runner',
+102 silly resolved     main: 'tasks/grunt-karma.js',
+102 silly resolved     repository:
+102 silly resolved      { type: 'git',
+102 silly resolved        url: 'https://github.com/karma-runner/grunt-karma.git' },
+102 silly resolved     keywords: [ 'gruntplugin', 'karma', 'grunt', 'test', 'unit', 'runner', 'TDD' ],
+102 silly resolved     scripts: { test: 'grunt test' },
+102 silly resolved     author: { name: 'Dave Geddes' },
+102 silly resolved     license: 'MIT',
+102 silly resolved     readmeFilename: 'README.md',
+102 silly resolved     dependencies: { optimist: '~0.6.0' },
+102 silly resolved     devDependencies:
+102 silly resolved      { grunt: '~0.4.1',
+102 silly resolved        'expect.js': '~0.2.0',
+102 silly resolved        'grunt-release': '~0.5.1',
+102 silly resolved        'grunt-contrib-watch': '~0.2.0',
+102 silly resolved        'grunt-conventional-changelog': '~0.0.12',
+102 silly resolved        'karma-mocha': '~0.1.0' },
+102 silly resolved     peerDependencies: { grunt: '0.4.x', karma: '~0.10.0' },
+102 silly resolved     readme: '#grunt-karma\nGrunt plugin for [Karma](https://github.com/karma-runner/karma)\nNOTE: this plugin requires Grunt 0.4.x\n\n##Getting Started\nFrom the same directory as your project\'s Gruntfile and package.json, install this plugin with the following command:\n\n`npm install grunt-karma --save-dev`\n\nNote that even numbered minor releases follow Karma\'s stable channel, while odd numbers follow the unstable channel. So grunt-karma@0.6.x goes with karma@0.10.x, while grunt-karma@0.7.x goes with karma@0.11.x\n\nOnce that\'s done, add this line to your project\'s Gruntfile:\n\n```js\ngrunt.loadNpmTasks(\'grunt-karma\');\n```\n\n##Config\nInside your `Gruntfile.js` file, add a section named *karma*, containing any number of configurations for running karma. You can either put your config in a [karma config file](http://karma-runner.github.com/0.8/config/configuration-file.html) or leave it all in your Gruntfile (recommended). \n\n###Here\'s an example that points to the config file:\n\n```js\nkarma: {\n  unit: {\n    configFile: \'karma.conf.js\'\n  }\n}\n```\n\n###Here\'s an example that puts the config in the Gruntfile:\n\n```js\nkarma: {\n  unit: {\n    options: {\n      files: [\'test/**/*.js\']\n    }\n  }\n}\n```\n\nYou can override any of the config file\'s settings by putting them directly in the Gruntfile:\n\n```js\nkarma: {\n  unit: {\n    configFile: \'karma.conf.js\',\n    runnerPort: 9999,\n    singleRun: true,\n    browsers: [\'PhantomJS\']\n  }\n}\n```\n\n##Sharing Configs\nIf you have multiple targets, it may be helpful to share common configuration settings between them. Grunt-karma supports this by using the `options` property:\n\n```js\nkarma: {\n  options: {\n    configFile: \'karma.conf.js\',\n    runnerPort: 9999,\n    browsers: [\'Chrome\', \'Firefox\']\n  },\n  continuous: {\n    singleRun: true,\n    browsers: [\'PhantomJS\']\n  },\n  dev: {\n    reporters: \'dots\'\n  }\n}\n```\n\nIn this example the `continuous` and `dev` targets will both use the `configFile` and `runnerPort` specified in the `options`. But the `continuous` target will override the browser setting to use PhantomJS, and also run as a singleRun. The `dev` target will simply change the reporter to dots.\n\n##Running tests\nThere are three ways to run your tests with karma:\n\n###Karma Server with Auto Runs on File Change\nSetting the `autoWatch` option to true will instruct karma to start a server and watch for changes to files, running tests automatically:\n\n```js\nkarma: {\n  unit: {\n    configFile: \'karma.conf.js\',\n    autoWatch: true\n  }\n}\n```\nNow run `$ grunt karma`\n\n###Karma Server with Grunt Watch\nMany Grunt projects watch several types of files using [grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch).\nConfig karma like usual (without the autoWatch option), and add `background:true`:\n\n```js\nkarma: {\n  unit: {\n    configFile: \'karma.conf.js\',\n    background: true\n  }\n}\n```\nThe `background` option will tell grunt to run karma in a child process so it doesn\'t block subsequent grunt tasks.\n\nConfig your `watch` task to run the karma task with the `:run` flag. For example:\n\n```js\nwatch: {\n  //run unit tests with karma (server needs to be already running)\n  karma: {\n    files: [\'app/js/**/*.js\', \'test/browser/**/*.js\'],\n    tasks: [\'karma:unit:run\'] //NOTE the :run flag\n  }\n},\n```\n\nIn your terminal window run `$ grunt karma:unit watch`, which runs both the karma task and the watch task. Now when grunt watch detects a change to one of your watched files, it will run the tests specified in the `unit` target using the already running karma server. This is the preferred method for development.\n\n###Single Run\nKeeping a browser window & karma server running during development is productive, but not a good solution for build processes. For that reason karma provides a "continuous integration" mode, which will launch the specified browser(s), run the tests, and close the browser(s). It also supports running tests in [PhantomJS](http://phantomjs.org/), a headless webkit browser which is great for running tests as part of a build. To run tests in continous integration mode just add the `singleRun` option:\n\n```js\nkarma: {\n  unit: {\n    configFile: \'config/karma.conf.js\',\n  },\n  //continuous integration mode: run tests once in PhantomJS browser.\n  continuous: {\n    configFile: \'config/karma.conf.js\',\n    singleRun: true,\n    browsers: [\'PhantomJS\']\n  },\n}\n```\n\nThe build would then run `grunt karma:continuous` to start PhantomJS, run tests, and close PhantomJS.\n\n##Grep / Passing Options to Karma Adapters\nAny cli args will be automatically parsed and sent on to adapters in the `config.args` property. So for example to use Mocha\'s useful `grep` feature, run grunt-karma like so: \n\n```\ngrunt karma:dev watch --grep=mypattern\n```\n\nNote that adapters like [karma-mocha](https://github.com/karma-runner/karma-mocha) have to support the args you\'re wanting to pass to them.\n\n##License\nMIT License\n',
+102 silly resolved     bugs: { url: 'https://github.com/karma-runner/grunt-karma/issues' },
+102 silly resolved     _id: 'grunt-karma@0.6.2',
+102 silly resolved     _from: 'grunt-karma@' },
+102 silly resolved   { name: 'karma-ng-html2js-preprocessor',
+102 silly resolved     version: '0.1.0',
+102 silly resolved     description: 'A Karma plugin. Compile AngularJS templates to JavaScript on the fly.',
+102 silly resolved     main: 'lib/index.js',
+102 silly resolved     scripts: { test: 'grunt test' },
+102 silly resolved     repository:
+102 silly resolved      { type: 'git',
+102 silly resolved        url: 'git://github.com/karma-runner/karma-ng-html2js-preprocessor.git' },
+102 silly resolved     keywords:
+102 silly resolved      [ 'karma-plugin',
+102 silly resolved        'karma-preprocessor',
+102 silly resolved        'angularjs',
+102 silly resolved        'angular',
+102 silly resolved        'html2js' ],
+102 silly resolved     author: { name: 'Vojta Jina', email: 'vojta.jina@gmail.com' },
+102 silly resolved     dependencies: {},
+102 silly resolved     devDependencies:
+102 silly resolved      { grunt: '~0.4.1',
+102 silly resolved        'grunt-simple-mocha': '~0.4',
+102 silly resolved        'grunt-contrib-jshint': '~0.6',
+102 silly resolved        chai: '~1.4',
+102 silly resolved        mocha: '~1.8',
+102 silly resolved        'grunt-npm': '~0.0.2',
+102 silly resolved        'grunt-bump': '~0.0.7',
+102 silly resolved        'grunt-auto-release': '~0.0.2' },
+102 silly resolved     peerDependencies: { karma: '>=0.9' },
+102 silly resolved     license: 'MIT',
+102 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+102 silly resolved     readme: '# karma-ng-html2js-preprocessor [![Build Status](https://travis-ci.org/karma-runner/karma-ng-html2js-preprocessor.png?branch=master)](https://travis-ci.org/karma-runner/karma-ng-html2js-preprocessor)\n\n> Preprocessor for converting HTML files to [AngularJS](http://angularjs.org/) templates.\n\n*Note:* If you are looking for a general preprocessor that is not tight to Angular, check out [karma-html2js-preprocessor](https://github.com/karma-runner/karma-html2js-preprocessor).\n\n## Installation\n\nThe easiest way is to keep `karma-ng-html2js-preprocessor` as a devDependency in your `package.json`.\n```json\n{\n  "devDependencies": {\n    "karma": "~0.10",\n    "karma-ng-html2js-preprocessor": "~0.1"\n  }\n}\n```\n\nYou can simple do it by:\n```bash\nnpm install karma-ng-html2js-preprocessor --save-dev\n```\n\n## Configuration\n```js\n// karma.conf.js\nmodule.exports = function(config) {\n  config.set({\n    preprocessors: {\n      \'**/*.html\': [\'ng-html2js\']\n    },\n\n    files: [\n      \'*.js\',\n      \'*.html\'\n    ],\n\n    ngHtml2JsPreprocessor: {\n      // strip this from the file path\n      stripPrefix: \'public/\',\n      // prepend this to the\n      prependPrefix: \'served/\',\n\n      // or define a custom transform function\n      cacheIdFromPath: function(filepath) {\n        return cacheId;\n      },\n\n      // setting this option will create only a single module that contains templates\n      // from all the files, so you can load them all with module(\'foo\')\n      moduleName: \'foo\'\n    }\n  });\n};\n```\n\n## How does it work ?\n\nThis preprocessor converts HTML files into JS strings and generates Angular modules. These modules, when loaded, puts these HTML files into the `$templateCache` and therefore Angular won\'t try to fetch them from the server.\n\nFor instance this `template.html`...\n```html\n<div>something</div>\n```\n... will be served as `template.html.js`:\n```js\nangular.module(\'template.html\', []).config(function($templateCache) {\n  $templateCache.put(\'template.html\', \'<div>something</div>\');\n});\n```\n\nSee the [ng-directive-testing](https://github.com/vojtajina/ng-directive-testing) for a complete example.\n\n----\n\nFor more information on Karma see the [homepage].\n\n\n[homepage]: http://karma-runner.github.com\n',
+102 silly resolved     readmeFilename: 'README.md',
+102 silly resolved     bugs: { url: 'https://github.com/karma-runner/karma-ng-html2js-preprocessor/issues' },
+102 silly resolved     _id: 'karma-ng-html2js-preprocessor@0.1.0',
+102 silly resolved     _from: 'karma-ng-html2js-preprocessor@' } ]
+103 info install karma-ng-scenario@0.1.0 into /home/arpit/code/ang-news
+104 info install grunt-karma@0.6.2 into /home/arpit/code/ang-news
+105 info install karma-ng-html2js-preprocessor@0.1.0 into /home/arpit/code/ang-news
+106 info installOne karma-ng-scenario@0.1.0
+107 info installOne grunt-karma@0.6.2
+108 info installOne karma-ng-html2js-preprocessor@0.1.0
+109 info /home/arpit/code/ang-news/node_modules/karma-ng-scenario unbuild
+110 info preuninstall karma-ng-scenario@0.1.0
+111 info /home/arpit/code/ang-news/node_modules/grunt-karma unbuild
+112 info preuninstall grunt-karma@0.6.2
+113 info /home/arpit/code/ang-news/node_modules/karma-ng-html2js-preprocessor unbuild
+114 info preuninstall karma-ng-html2js-preprocessor@0.1.0
+115 info uninstall karma-ng-scenario@0.1.0
+116 info uninstall grunt-karma@0.6.2
+117 info uninstall karma-ng-html2js-preprocessor@0.1.0
+118 verbose true,/home/arpit/code/ang-news/node_modules,/home/arpit/code/ang-news/node_modules unbuild karma-ng-scenario@0.1.0
+119 info postuninstall karma-ng-scenario@0.1.0
+120 verbose true,/home/arpit/code/ang-news/node_modules,/home/arpit/code/ang-news/node_modules unbuild grunt-karma@0.6.2
+121 info postuninstall grunt-karma@0.6.2
+122 verbose true,/home/arpit/code/ang-news/node_modules,/home/arpit/code/ang-news/node_modules unbuild karma-ng-html2js-preprocessor@0.1.0
+123 info postuninstall karma-ng-html2js-preprocessor@0.1.0
+124 verbose tar unpack /home/arpit/.npm/karma-ng-scenario/0.1.0/package.tgz
+125 silly lockFile 553a6629-s-node-modules-karma-ng-scenario tar:///home/arpit/code/ang-news/node_modules/karma-ng-scenario
+126 verbose lock tar:///home/arpit/code/ang-news/node_modules/karma-ng-scenario /home/arpit/.npm/553a6629-s-node-modules-karma-ng-scenario.lock
+127 silly lockFile 546fa398-ma-ng-scenario-0-1-0-package-tgz tar:///home/arpit/.npm/karma-ng-scenario/0.1.0/package.tgz
+128 verbose lock tar:///home/arpit/.npm/karma-ng-scenario/0.1.0/package.tgz /home/arpit/.npm/546fa398-ma-ng-scenario-0-1-0-package-tgz.lock
+129 verbose tar unpack /home/arpit/.npm/karma-ng-html2js-preprocessor/0.1.0/package.tgz
+130 silly lockFile 858d3aa6-es-karma-ng-html2js-preprocessor tar:///home/arpit/code/ang-news/node_modules/karma-ng-html2js-preprocessor
+131 verbose lock tar:///home/arpit/code/ang-news/node_modules/karma-ng-html2js-preprocessor /home/arpit/.npm/858d3aa6-es-karma-ng-html2js-preprocessor.lock
+132 silly lockFile ee9a864f-s-preprocessor-0-1-0-package-tgz tar:///home/arpit/.npm/karma-ng-html2js-preprocessor/0.1.0/package.tgz
+133 verbose lock tar:///home/arpit/.npm/karma-ng-html2js-preprocessor/0.1.0/package.tgz /home/arpit/.npm/ee9a864f-s-preprocessor-0-1-0-package-tgz.lock
+134 silly gunzTarPerm modes [ '755', '644' ]
+135 silly gunzTarPerm modes [ '755', '644' ]
+136 silly gunzTarPerm extractEntry package.json
+137 silly gunzTarPerm extractEntry package.json
+138 silly gunzTarPerm extractEntry README.md
+139 silly gunzTarPerm extractEntry LICENSE
+140 silly gunzTarPerm extractEntry README.md
+141 silly gunzTarPerm extractEntry LICENSE
+142 verbose tar unpack /home/arpit/.npm/grunt-karma/0.6.2/package.tgz
+143 silly lockFile 80640675-ng-news-node-modules-grunt-karma tar:///home/arpit/code/ang-news/node_modules/grunt-karma
+144 verbose lock tar:///home/arpit/code/ang-news/node_modules/grunt-karma /home/arpit/.npm/80640675-ng-news-node-modules-grunt-karma.lock
+145 silly lockFile 8a5f8255-pm-grunt-karma-0-6-2-package-tgz tar:///home/arpit/.npm/grunt-karma/0.6.2/package.tgz
+146 verbose lock tar:///home/arpit/.npm/grunt-karma/0.6.2/package.tgz /home/arpit/.npm/8a5f8255-pm-grunt-karma-0-6-2-package-tgz.lock
+147 silly gunzTarPerm modes [ '755', '644' ]
+148 silly gunzTarPerm extractEntry lib/adapter.js
+149 silly gunzTarPerm extractEntry lib/angular-scenario.js
+150 silly gunzTarPerm extractEntry lib/html2js.js
+151 silly gunzTarPerm extractEntry lib/index.js
+152 silly lockFile 858d3aa6-es-karma-ng-html2js-preprocessor tar:///home/arpit/code/ang-news/node_modules/karma-ng-html2js-preprocessor
+153 silly lockFile 858d3aa6-es-karma-ng-html2js-preprocessor tar:///home/arpit/code/ang-news/node_modules/karma-ng-html2js-preprocessor
+154 silly lockFile ee9a864f-s-preprocessor-0-1-0-package-tgz tar:///home/arpit/.npm/karma-ng-html2js-preprocessor/0.1.0/package.tgz
+155 silly lockFile ee9a864f-s-preprocessor-0-1-0-package-tgz tar:///home/arpit/.npm/karma-ng-html2js-preprocessor/0.1.0/package.tgz
+156 info preinstall karma-ng-html2js-preprocessor@0.1.0
+157 verbose readDependencies using package.json deps
+158 verbose readDependencies using package.json deps
+159 silly resolved []
+160 verbose about to build /home/arpit/code/ang-news/node_modules/karma-ng-html2js-preprocessor
+161 info build /home/arpit/code/ang-news/node_modules/karma-ng-html2js-preprocessor
+162 verbose linkStuff [ false, false, false, '/home/arpit/code/ang-news/node_modules' ]
+163 info linkStuff karma-ng-html2js-preprocessor@0.1.0
+164 verbose linkBins karma-ng-html2js-preprocessor@0.1.0
+165 verbose linkMans karma-ng-html2js-preprocessor@0.1.0
+166 verbose rebuildBundles karma-ng-html2js-preprocessor@0.1.0
+167 info install karma-ng-html2js-preprocessor@0.1.0
+168 silly gunzTarPerm extractEntry package.json
+169 silly gunzTarPerm extractEntry lib/index.js
+170 info postinstall karma-ng-html2js-preprocessor@0.1.0
+171 silly gunzTarPerm extractEntry .npmignore
+172 silly gunzTarPerm extractEntry README.md
+173 silly gunzTarPerm extractEntry LICENSE
+174 silly gunzTarPerm extractEntry Gruntfile.js
+175 silly gunzTarPerm extractEntry .idea/.name
+176 silly gunzTarPerm extractEntry .idea/dictionaries/dave.xml
+177 silly gunzTarPerm extractEntry .idea/encodings.xml
+178 silly gunzTarPerm extractEntry .idea/grunt-karma.iml
+179 silly gunzTarPerm extractEntry .idea/inspectionProfiles/Project_Default.xml
+180 silly gunzTarPerm extractEntry .idea/inspectionProfiles/profiles_settings.xml
+181 silly gunzTarPerm extractEntry .idea/misc.xml
+182 silly gunzTarPerm extractEntry .idea/modules.xml
+183 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+184 silly gunzTarPerm extractEntry .idea/vcs.xml
+185 silly gunzTarPerm extractEntry .idea/workspace.xml
+186 silly gunzTarPerm extractEntry TODO.md
+187 silly gunzTarPerm extractEntry lib/background.js
+188 silly gunzTarPerm extractEntry CHANGELOG.md
+189 silly gunzTarPerm extractEntry tasks/grunt-karma.js
+190 silly gunzTarPerm extractEntry test/grunt-karma-test.js
+191 silly lockFile 80640675-ng-news-node-modules-grunt-karma tar:///home/arpit/code/ang-news/node_modules/grunt-karma
+192 silly lockFile 80640675-ng-news-node-modules-grunt-karma tar:///home/arpit/code/ang-news/node_modules/grunt-karma
+193 silly lockFile 8a5f8255-pm-grunt-karma-0-6-2-package-tgz tar:///home/arpit/.npm/grunt-karma/0.6.2/package.tgz
+194 silly lockFile 8a5f8255-pm-grunt-karma-0-6-2-package-tgz tar:///home/arpit/.npm/grunt-karma/0.6.2/package.tgz
+195 info preinstall grunt-karma@0.6.2
+196 verbose readDependencies using package.json deps
+197 verbose readDependencies using package.json deps
+198 verbose cache add [ 'optimist@~0.6.0', null ]
+199 verbose cache add name=undefined spec="optimist@~0.6.0" args=["optimist@~0.6.0",null]
+200 verbose parsed url { protocol: null,
+200 verbose parsed url   slashes: null,
+200 verbose parsed url   auth: null,
+200 verbose parsed url   host: null,
+200 verbose parsed url   port: null,
+200 verbose parsed url   hostname: null,
+200 verbose parsed url   hash: null,
+200 verbose parsed url   search: null,
+200 verbose parsed url   query: null,
+200 verbose parsed url   pathname: 'optimist@~0.6.0',
+200 verbose parsed url   path: 'optimist@~0.6.0',
+200 verbose parsed url   href: 'optimist@~0.6.0' }
+201 verbose cache add name="optimist" spec="~0.6.0" args=["optimist","~0.6.0"]
+202 verbose parsed url { protocol: null,
+202 verbose parsed url   slashes: null,
+202 verbose parsed url   auth: null,
+202 verbose parsed url   host: null,
+202 verbose parsed url   port: null,
+202 verbose parsed url   hostname: null,
+202 verbose parsed url   hash: null,
+202 verbose parsed url   search: null,
+202 verbose parsed url   query: null,
+202 verbose parsed url   pathname: '~0.6.0',
+202 verbose parsed url   path: '~0.6.0',
+202 verbose parsed url   href: '~0.6.0' }
+203 verbose addNamed [ 'optimist', '~0.6.0' ]
+204 verbose addNamed [ null, '>=0.6.0-0 <0.7.0-0' ]
+205 silly lockFile 07193858-optimist-0-6-0 optimist@~0.6.0
+206 verbose lock optimist@~0.6.0 /home/arpit/.npm/07193858-optimist-0-6-0.lock
+207 silly addNameRange { name: 'optimist', range: '>=0.6.0-0 <0.7.0-0', hasData: false }
+208 verbose url raw optimist
+209 verbose url resolving [ 'https://registry.npmjs.org/', './optimist' ]
+210 verbose url resolved https://registry.npmjs.org/optimist
+211 info trying registry request attempt 1 at 15:14:59
+212 verbose etag "8BO85BEC60MMBAVWXWMFX7PZQ"
+213 http GET https://registry.npmjs.org/optimist
+214 silly lockFile 553a6629-s-node-modules-karma-ng-scenario tar:///home/arpit/code/ang-news/node_modules/karma-ng-scenario
+215 silly lockFile 553a6629-s-node-modules-karma-ng-scenario tar:///home/arpit/code/ang-news/node_modules/karma-ng-scenario
+216 silly lockFile 546fa398-ma-ng-scenario-0-1-0-package-tgz tar:///home/arpit/.npm/karma-ng-scenario/0.1.0/package.tgz
+217 silly lockFile 546fa398-ma-ng-scenario-0-1-0-package-tgz tar:///home/arpit/.npm/karma-ng-scenario/0.1.0/package.tgz
+218 info preinstall karma-ng-scenario@0.1.0
+219 verbose readDependencies using package.json deps
+220 verbose readDependencies using package.json deps
+221 silly resolved []
+222 verbose about to build /home/arpit/code/ang-news/node_modules/karma-ng-scenario
+223 info build /home/arpit/code/ang-news/node_modules/karma-ng-scenario
+224 verbose linkStuff [ false, false, false, '/home/arpit/code/ang-news/node_modules' ]
+225 info linkStuff karma-ng-scenario@0.1.0
+226 verbose linkBins karma-ng-scenario@0.1.0
+227 verbose linkMans karma-ng-scenario@0.1.0
+228 verbose rebuildBundles karma-ng-scenario@0.1.0
+229 info install karma-ng-scenario@0.1.0
+230 info postinstall karma-ng-scenario@0.1.0
+231 http 304 https://registry.npmjs.org/optimist
+232 silly registry.get cb [ 304,
+232 silly registry.get   { date: 'Tue, 11 Mar 2014 09:45:31 GMT',
+232 silly registry.get     server: 'Apache',
+232 silly registry.get     via: '1.1 varnish',
+232 silly registry.get     'last-modified': 'Tue, 11 Mar 2014 09:45:31 GMT',
+232 silly registry.get     'cache-control': 'max-age=1',
+232 silly registry.get     etag: '"8BO85BEC60MMBAVWXWMFX7PZQ"',
+232 silly registry.get     'x-served-by': 'cache-sv63-SJC3',
+232 silly registry.get     'x-cache': 'HIT',
+232 silly registry.get     'x-cache-hits': '1',
+232 silly registry.get     'x-timer': 'S1394531131.114584208,VS0,VE345',
+232 silly registry.get     vary: 'Accept',
+232 silly registry.get     'content-length': '0',
+232 silly registry.get     'keep-alive': 'timeout=10, max=50',
+232 silly registry.get     connection: 'Keep-Alive' } ]
+233 verbose etag optimist from cache
+234 silly addNameRange number 2 { name: 'optimist', range: '>=0.6.0-0 <0.7.0-0', hasData: true }
+235 silly addNameRange versions [ 'optimist',
+235 silly addNameRange   [ '0.0.1',
+235 silly addNameRange     '0.0.2',
+235 silly addNameRange     '0.0.4',
+235 silly addNameRange     '0.0.5',
+235 silly addNameRange     '0.0.6',
+235 silly addNameRange     '0.0.7',
+235 silly addNameRange     '0.1.0',
+235 silly addNameRange     '0.1.1',
+235 silly addNameRange     '0.1.2',
+235 silly addNameRange     '0.1.3',
+235 silly addNameRange     '0.1.4',
+235 silly addNameRange     '0.1.5',
+235 silly addNameRange     '0.1.6',
+235 silly addNameRange     '0.1.7',
+235 silly addNameRange     '0.1.8',
+235 silly addNameRange     '0.1.9',
+235 silly addNameRange     '0.0.3',
+235 silly addNameRange     '0.2.0',
+235 silly addNameRange     '0.2.1',
+235 silly addNameRange     '0.2.2',
+235 silly addNameRange     '0.2.3',
+235 silly addNameRange     '0.2.4',
+235 silly addNameRange     '0.2.5',
+235 silly addNameRange     '0.2.6',
+235 silly addNameRange     '0.2.7',
+235 silly addNameRange     '0.2.8',
+235 silly addNameRange     '0.3.0',
+235 silly addNameRange     '0.3.1',
+235 silly addNameRange     '0.3.3',
+235 silly addNameRange     '0.3.4',
+235 silly addNameRange     '0.3.5',
+235 silly addNameRange     '0.3.6',
+235 silly addNameRange     '0.3.7',
+235 silly addNameRange     '0.4.0',
+235 silly addNameRange     '0.5.0',
+235 silly addNameRange     '0.5.1',
+235 silly addNameRange     '0.5.2',
+235 silly addNameRange     '0.6.0',
+235 silly addNameRange     '0.6.1' ] ]
+236 verbose addNamed [ 'optimist', '0.6.1' ]
+237 verbose addNamed [ '0.6.1', '0.6.1' ]
+238 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+239 verbose lock optimist@0.6.1 /home/arpit/.npm/0fc74eb8-optimist-0-6-1.lock
+240 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+241 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+242 silly lockFile 07193858-optimist-0-6-0 optimist@~0.6.0
+243 silly lockFile 07193858-optimist-0-6-0 optimist@~0.6.0
+244 silly resolved [ { name: 'optimist',
+244 silly resolved     version: '0.6.1',
+244 silly resolved     description: 'Light-weight option parsing with an argv hash. No optstrings attached.',
+244 silly resolved     main: './index.js',
+244 silly resolved     dependencies: { wordwrap: '~0.0.2', minimist: '~0.0.1' },
+244 silly resolved     devDependencies: { hashish: '~0.0.4', tap: '~0.4.0' },
+244 silly resolved     scripts: { test: 'tap ./test/*.js' },
+244 silly resolved     repository:
+244 silly resolved      { type: 'git',
+244 silly resolved        url: 'http://github.com/substack/node-optimist.git' },
+244 silly resolved     keywords:
+244 silly resolved      [ 'argument',
+244 silly resolved        'args',
+244 silly resolved        'option',
+244 silly resolved        'parser',
+244 silly resolved        'parsing',
+244 silly resolved        'cli',
+244 silly resolved        'command' ],
+244 silly resolved     author:
+244 silly resolved      { name: 'James Halliday',
+244 silly resolved        email: 'mail@substack.net',
+244 silly resolved        url: 'http://substack.net' },
+244 silly resolved     license: 'MIT/X11',
+244 silly resolved     engine: { node: '>=0.4' },
+244 silly resolved     readme: '# DEPRECATION NOTICE\n\nI don\'t want to maintain this module anymore since I just use\n[minimist](https://npmjs.org/package/minimist), the argument parsing engine,\ndirectly instead nowadays.\n\nSee [yargs](https://github.com/chevex/yargs) for the modern, pirate-themed\nsuccessor to optimist.\n\n[![yarrrrrrrgs!](http://i.imgur.com/4WFGVJ9.png)](https://github.com/chevex/yargs)\n\nYou should also consider [nomnom](https://github.com/harthur/nomnom).\n\noptimist\n========\n\nOptimist is a node.js library for option parsing for people who hate option\nparsing. More specifically, this module is for people who like all the --bells\nand -whistlz of program usage but think optstrings are a waste of time.\n\nWith optimist, option parsing doesn\'t have to suck (as much).\n\n[![build status](https://secure.travis-ci.org/substack/node-optimist.png)](http://travis-ci.org/substack/node-optimist)\n\nexamples\n========\n\nWith Optimist, the options are just a hash! No optstrings attached.\n-------------------------------------------------------------------\n\nxup.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\n\nif (argv.rif - 5 * argv.xup > 7.138) {\n    console.log(\'Buy more riffiwobbles\');\n}\nelse {\n    console.log(\'Sell the xupptumblers\');\n}\n````\n\n***\n\n    $ ./xup.js --rif=55 --xup=9.52\n    Buy more riffiwobbles\n    \n    $ ./xup.js --rif 12 --xup 8.1\n    Sell the xupptumblers\n\n![This one\'s optimistic.](http://substack.net/images/optimistic.png)\n\nBut wait! There\'s more! You can do short options:\n-------------------------------------------------\n \nshort.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\nconsole.log(\'(%d,%d)\', argv.x, argv.y);\n````\n\n***\n\n    $ ./short.js -x 10 -y 21\n    (10,21)\n\nAnd booleans, both long and short (and grouped):\n----------------------------------\n\nbool.js:\n\n````javascript\n#!/usr/bin/env node\nvar util = require(\'util\');\nvar argv = require(\'optimist\').argv;\n\nif (argv.s) {\n    util.print(argv.fr ? \'Le chat dit: \' : \'The cat says: \');\n}\nconsole.log(\n    (argv.fr ? \'miaou\' : \'meow\') + (argv.p ? \'.\' : \'\')\n);\n````\n\n***\n\n    $ ./bool.js -s\n    The cat says: meow\n    \n    $ ./bool.js -sp\n    The cat says: meow.\n\n    $ ./bool.js -sp --fr\n    Le chat dit: miaou.\n\nAnd non-hypenated options too! Just use `argv._`!\n-------------------------------------------------\n \nnonopt.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\nconsole.log(\'(%d,%d)\', argv.x, argv.y);\nconsole.log(argv._);\n````\n\n***\n\n    $ ./nonopt.js -x 6.82 -y 3.35 moo\n    (6.82,3.35)\n    [ \'moo\' ]\n    \n    $ ./nonopt.js foo -x 0.54 bar -y 1.12 baz\n    (0.54,1.12)\n    [ \'foo\', \'bar\', \'baz\' ]\n\nPlus, Optimist comes with .usage() and .demand()!\n-------------------------------------------------\n\ndivide.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .usage(\'Usage: $0 -x [num] -y [num]\')\n    .demand([\'x\',\'y\'])\n    .argv;\n\nconsole.log(argv.x / argv.y);\n````\n\n***\n \n    $ ./divide.js -x 55 -y 11\n    5\n    \n    $ node ./divide.js -x 4.91 -z 2.51\n    Usage: node ./divide.js -x [num] -y [num]\n\n    Options:\n      -x  [required]\n      -y  [required]\n\n    Missing required arguments: y\n\nEVEN MORE HOLY COW\n------------------\n\ndefault_singles.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .default(\'x\', 10)\n    .default(\'y\', 10)\n    .argv\n;\nconsole.log(argv.x + argv.y);\n````\n\n***\n\n    $ ./default_singles.js -x 5\n    15\n\ndefault_hash.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .default({ x : 10, y : 10 })\n    .argv\n;\nconsole.log(argv.x + argv.y);\n````\n\n***\n\n    $ ./default_hash.js -y 7\n    17\n\nAnd if you really want to get all descriptive about it...\n---------------------------------------------------------\n\nboolean_single.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .boolean(\'v\')\n    .argv\n;\nconsole.dir(argv);\n````\n\n***\n\n    $ ./boolean_single.js -v foo bar baz\n    true\n    [ \'bar\', \'baz\', \'foo\' ]\n\nboolean_double.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .boolean([\'x\',\'y\',\'z\'])\n    .argv\n;\nconsole.dir([ argv.x, argv.y, argv.z ]);\nconsole.dir(argv._);\n````\n\n***\n\n    $ ./boolean_double.js -x -z one two three\n    [ true, false, true ]\n    [ \'one\', \'two\', \'three\' ]\n\nOptimist is here to help...\n---------------------------\n\nYou can describe parameters for help messages and set aliases. Optimist figures\nout how to format a handy help string automatically.\n\nline_count.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .usage(\'Count the lines in a file.\\nUsage: $0\')\n    .demand(\'f\')\n    .alias(\'f\', \'file\')\n    .describe(\'f\', \'Load a file\')\n    .argv\n;\n\nvar fs = require(\'fs\');\nvar s = fs.createReadStream(argv.file);\n\nvar lines = 0;\ns.on(\'data\', function (buf) {\n    lines += buf.toString().match(/\\n/g).length;\n});\n\ns.on(\'end\', function () {\n    console.log(lines);\n});\n````\n\n***\n\n    $ node line_count.js\n    Count the lines in a file.\n    Usage: node ./line_count.js\n\n    Options:\n      -f, --file  Load a file  [required]\n\n    Missing required arguments: f\n\n    $ node line_count.js --file line_count.js \n    20\n    \n    $ node line_count.js -f line_count.js \n    20\n\nmethods\n=======\n\nBy itself,\n\n````javascript\nrequire(\'optimist\').argv\n`````\n\nwill use `process.argv` array to construct the `argv` object.\n\nYou can pass in the `process.argv` yourself:\n\n````javascript\nrequire(\'optimist\')([ \'-x\', \'1\', \'-y\', \'2\' ]).argv\n````\n\nor use .parse() to do the same thing:\n\n````javascript\nrequire(\'optimist\').parse([ \'-x\', \'1\', \'-y\', \'2\' ])\n````\n\nThe rest of these methods below come in just before the terminating `.argv`.\n\n.alias(key, alias)\n------------------\n\nSet key names as equivalent such that updates to a key will propagate to aliases\nand vice-versa.\n\nOptionally `.alias()` can take an object that maps keys to aliases.\n\n.default(key, value)\n--------------------\n\nSet `argv[key]` to `value` if no option was specified on `process.argv`.\n\nOptionally `.default()` can take an object that maps keys to default values.\n\n.demand(key)\n------------\n\nIf `key` is a string, show the usage information and exit if `key` wasn\'t\nspecified in `process.argv`.\n\nIf `key` is a number, demand at least as many non-option arguments, which show\nup in `argv._`.\n\nIf `key` is an Array, demand each element.\n\n.describe(key, desc)\n--------------------\n\nDescribe a `key` for the generated usage information.\n\nOptionally `.describe()` can take an object that maps keys to descriptions.\n\n.options(key, opt)\n------------------\n\nInstead of chaining together `.alias().demand().default()`, you can specify\nkeys in `opt` for each of the chainable methods.\n\nFor example:\n\n````javascript\nvar argv = require(\'optimist\')\n    .options(\'f\', {\n        alias : \'file\',\n        default : \'/etc/passwd\',\n    })\n    .argv\n;\n````\n\nis the same as\n\n````javascript\nvar argv = require(\'optimist\')\n    .alias(\'f\', \'file\')\n    .default(\'f\', \'/etc/passwd\')\n    .argv\n;\n````\n\nOptionally `.options()` can take an object that maps keys to `opt` parameters.\n\n.usage(message)\n---------------\n\nSet a usage message to show which commands to use. Inside `message`, the string\n`$0` will get interpolated to the current script name or node command for the\npresent script similar to how `$0` works in bash or perl.\n\n.check(fn)\n----------\n\nCheck that certain conditions are met in the provided arguments.\n\nIf `fn` throws or returns `false`, show the thrown error, usage information, and\nexit.\n\n.boolean(key)\n-------------\n\nInterpret `key` as a boolean. If a non-flag option follows `key` in\n`process.argv`, that string won\'t get set as the value of `key`.\n\nIf `key` never shows up as a flag in `process.arguments`, `argv[key]` will be\n`false`.\n\nIf `key` is an Array, interpret all the elements as booleans.\n\n.string(key)\n------------\n\nTell the parser logic not to interpret `key` as a number or boolean.\nThis can be useful if you need to preserve leading zeros in an input.\n\nIf `key` is an Array, interpret all the elements as strings.\n\n.wrap(columns)\n--------------\n\nFormat usage output to wrap at `columns` many columns.\n\n.help()\n-------\n\nReturn the generated usage string.\n\n.showHelp(fn=console.error)\n---------------------------\n\nPrint the usage data using `fn` for printing.\n\n.parse(args)\n------------\n\nParse `args` instead of `process.argv`. Returns the `argv` object.\n\n.argv\n-----\n\nGet the arguments as a plain old object.\n\nArguments without a corresponding flag show up in the `argv._` array.\n\nThe script name or node command is available at `argv.$0` similarly to how `$0`\nworks in bash or perl.\n\nparsing tricks\n==============\n\nstop parsing\n------------\n\nUse `--` to stop parsing flags and stuff the remainder into `argv._`.\n\n    $ node examples/reflect.js -a 1 -b 2 -- -c 3 -d 4\n    { _: [ \'-c\', \'3\', \'-d\', \'4\' ],\n      \'$0\': \'node ./examples/reflect.js\',\n      a: 1,\n      b: 2 }\n\nnegate fields\n-------------\n\nIf you want to explicity set a field to false instead of just leaving it\nundefined or to override a default you can do `--no-key`.\n\n    $ node examples/reflect.js -a --no-b\n    { _: [],\n      \'$0\': \'node ./examples/reflect.js\',\n      a: true,\n      b: false }\n\nnumbers\n-------\n\nEvery argument that looks like a number (`!isNaN(Number(arg))`) is converted to\none. This way you can just `net.createConnection(argv.port)` and you can add\nnumbers out of `argv` with `+` without having that mean concatenation,\nwhich is super frustrating.\n\nduplicates\n----------\n\nIf you specify a flag multiple times it will get turned into an array containing\nall the values in order.\n\n    $ node examples/reflect.js -x 5 -x 8 -x 0\n    { _: [],\n      \'$0\': \'node ./examples/reflect.js\',\n        x: [ 5, 8, 0 ] }\n\ndot notation\n------------\n\nWhen you use dots (`.`s) in argument names, an implicit object path is assumed.\nThis lets you organize arguments into nested objects.\n\n     $ node examples/reflect.js --foo.bar.baz=33 --foo.quux=5\n     { _: [],\n       \'$0\': \'node ./examples/reflect.js\',\n         foo: { bar: { baz: 33 }, quux: 5 } }\n\nshort numbers\n-------------\n\nShort numeric `head -n5` style argument work too:\n\n    $ node reflect.js -n123 -m456\n    { \'3\': true,\n      \'6\': true,\n      _: [],\n      \'$0\': \'node ./reflect.js\',\n      n: 123,\n      m: 456 }\n\ninstallation\n============\n\nWith [npm](http://github.com/isaacs/npm), just do:\n    npm install optimist\n \nor clone this project on github:\n\n    git clone http://github.com/substack/node-optimist.git\n\nTo run the tests with [expresso](http://github.com/visionmedia/expresso),\njust do:\n    \n    expresso\n\ninspired By\n===========\n\nThis module is loosely inspired by Perl\'s\n[Getopt::Casual](http://search.cpan.org/~photo/Getopt-Casual-0.13.1/Casual.pm).\n',
+244 silly resolved     readmeFilename: 'readme.markdown',
+244 silly resolved     bugs: { url: 'https://github.com/substack/node-optimist/issues' },
+244 silly resolved     _id: 'optimist@0.6.1',
+244 silly resolved     _from: 'optimist@~0.6.0' } ]
+245 info install optimist@0.6.1 into /home/arpit/code/ang-news/node_modules/grunt-karma
+246 info installOne optimist@0.6.1
+247 info /home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist unbuild
+248 verbose tar unpack /home/arpit/.npm/optimist/0.6.1/package.tgz
+249 silly lockFile 42e941bd-runt-karma-node-modules-optimist tar:///home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist
+250 verbose lock tar:///home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist /home/arpit/.npm/42e941bd-runt-karma-node-modules-optimist.lock
+251 silly lockFile 352d1248-t-npm-optimist-0-6-1-package-tgz tar:///home/arpit/.npm/optimist/0.6.1/package.tgz
+252 verbose lock tar:///home/arpit/.npm/optimist/0.6.1/package.tgz /home/arpit/.npm/352d1248-t-npm-optimist-0-6-1-package-tgz.lock
+253 silly gunzTarPerm modes [ '755', '644' ]
+254 silly gunzTarPerm extractEntry package.json
+255 silly gunzTarPerm extractEntry LICENSE
+256 silly gunzTarPerm extractEntry index.js
+257 silly gunzTarPerm extractEntry .travis.yml
+258 silly gunzTarPerm extractEntry example/bool.js
+259 silly gunzTarPerm extractEntry example/default_singles.js
+260 silly gunzTarPerm extractEntry example/divide.js
+261 silly gunzTarPerm extractEntry example/line_count.js
+262 silly gunzTarPerm extractEntry example/default_hash.js
+263 silly gunzTarPerm extractEntry example/line_count_wrap.js
+264 silly gunzTarPerm extractEntry example/nonopt.js
+265 silly gunzTarPerm extractEntry example/reflect.js
+266 silly gunzTarPerm extractEntry example/short.js
+267 silly gunzTarPerm extractEntry example/string.js
+268 silly gunzTarPerm extractEntry example/boolean_single.js
+269 silly gunzTarPerm extractEntry example/usage-options.js
+270 silly gunzTarPerm extractEntry example/boolean_double.js
+271 silly gunzTarPerm extractEntry example/xup.js
+272 silly gunzTarPerm extractEntry example/line_count_options.js
+273 silly gunzTarPerm extractEntry readme.markdown
+274 silly gunzTarPerm extractEntry test/_.js
+275 silly gunzTarPerm extractEntry test/dash.js
+276 silly gunzTarPerm extractEntry test/parse.js
+277 silly gunzTarPerm extractEntry test/parse_modified.js
+278 silly gunzTarPerm extractEntry test/short.js
+279 silly gunzTarPerm extractEntry test/usage.js
+280 silly gunzTarPerm extractEntry test/whitespace.js
+281 silly gunzTarPerm extractEntry test/_/argv.js
+282 silly gunzTarPerm extractEntry test/_/bin.js
+283 silly lockFile 42e941bd-runt-karma-node-modules-optimist tar:///home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist
+284 silly lockFile 42e941bd-runt-karma-node-modules-optimist tar:///home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist
+285 silly lockFile 352d1248-t-npm-optimist-0-6-1-package-tgz tar:///home/arpit/.npm/optimist/0.6.1/package.tgz
+286 silly lockFile 352d1248-t-npm-optimist-0-6-1-package-tgz tar:///home/arpit/.npm/optimist/0.6.1/package.tgz
+287 info preinstall optimist@0.6.1
+288 verbose readDependencies using package.json deps
+289 verbose readDependencies using package.json deps
+290 verbose cache add [ 'wordwrap@~0.0.2', null ]
+291 verbose cache add name=undefined spec="wordwrap@~0.0.2" args=["wordwrap@~0.0.2",null]
+292 verbose parsed url { protocol: null,
+292 verbose parsed url   slashes: null,
+292 verbose parsed url   auth: null,
+292 verbose parsed url   host: null,
+292 verbose parsed url   port: null,
+292 verbose parsed url   hostname: null,
+292 verbose parsed url   hash: null,
+292 verbose parsed url   search: null,
+292 verbose parsed url   query: null,
+292 verbose parsed url   pathname: 'wordwrap@~0.0.2',
+292 verbose parsed url   path: 'wordwrap@~0.0.2',
+292 verbose parsed url   href: 'wordwrap@~0.0.2' }
+293 verbose cache add name="wordwrap" spec="~0.0.2" args=["wordwrap","~0.0.2"]
+294 verbose parsed url { protocol: null,
+294 verbose parsed url   slashes: null,
+294 verbose parsed url   auth: null,
+294 verbose parsed url   host: null,
+294 verbose parsed url   port: null,
+294 verbose parsed url   hostname: null,
+294 verbose parsed url   hash: null,
+294 verbose parsed url   search: null,
+294 verbose parsed url   query: null,
+294 verbose parsed url   pathname: '~0.0.2',
+294 verbose parsed url   path: '~0.0.2',
+294 verbose parsed url   href: '~0.0.2' }
+295 verbose addNamed [ 'wordwrap', '~0.0.2' ]
+296 verbose addNamed [ null, '>=0.0.2-0 <0.1.0-0' ]
+297 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+298 verbose lock wordwrap@~0.0.2 /home/arpit/.npm/8bd42136-wordwrap-0-0-2.lock
+299 verbose cache add [ 'minimist@~0.0.1', null ]
+300 verbose cache add name=undefined spec="minimist@~0.0.1" args=["minimist@~0.0.1",null]
+301 verbose parsed url { protocol: null,
+301 verbose parsed url   slashes: null,
+301 verbose parsed url   auth: null,
+301 verbose parsed url   host: null,
+301 verbose parsed url   port: null,
+301 verbose parsed url   hostname: null,
+301 verbose parsed url   hash: null,
+301 verbose parsed url   search: null,
+301 verbose parsed url   query: null,
+301 verbose parsed url   pathname: 'minimist@~0.0.1',
+301 verbose parsed url   path: 'minimist@~0.0.1',
+301 verbose parsed url   href: 'minimist@~0.0.1' }
+302 verbose cache add name="minimist" spec="~0.0.1" args=["minimist","~0.0.1"]
+303 verbose parsed url { protocol: null,
+303 verbose parsed url   slashes: null,
+303 verbose parsed url   auth: null,
+303 verbose parsed url   host: null,
+303 verbose parsed url   port: null,
+303 verbose parsed url   hostname: null,
+303 verbose parsed url   hash: null,
+303 verbose parsed url   search: null,
+303 verbose parsed url   query: null,
+303 verbose parsed url   pathname: '~0.0.1',
+303 verbose parsed url   path: '~0.0.1',
+303 verbose parsed url   href: '~0.0.1' }
+304 verbose addNamed [ 'minimist', '~0.0.1' ]
+305 verbose addNamed [ null, '>=0.0.1-0 <0.1.0-0' ]
+306 silly lockFile 7a855a96-minimist-0-0-1 minimist@~0.0.1
+307 verbose lock minimist@~0.0.1 /home/arpit/.npm/7a855a96-minimist-0-0-1.lock
+308 silly addNameRange { name: 'wordwrap', range: '>=0.0.2-0 <0.1.0-0', hasData: false }
+309 silly addNameRange { name: 'minimist', range: '>=0.0.1-0 <0.1.0-0', hasData: false }
+310 verbose url raw minimist
+311 verbose url resolving [ 'https://registry.npmjs.org/', './minimist' ]
+312 verbose url resolved https://registry.npmjs.org/minimist
+313 info trying registry request attempt 1 at 15:15:03
+314 verbose etag "89DRIOZVGYTI99EC7UF657LWP"
+315 http GET https://registry.npmjs.org/minimist
+316 verbose url raw wordwrap
+317 verbose url resolving [ 'https://registry.npmjs.org/', './wordwrap' ]
+318 verbose url resolved https://registry.npmjs.org/wordwrap
+319 info trying registry request attempt 1 at 15:15:03
+320 verbose etag "9R7I44BD3I78GW45KU615ZLPN"
+321 http GET https://registry.npmjs.org/wordwrap
+322 http 304 https://registry.npmjs.org/minimist
+323 silly registry.get cb [ 304,
+323 silly registry.get   { date: 'Tue, 11 Mar 2014 09:45:33 GMT',
+323 silly registry.get     server: 'Apache',
+323 silly registry.get     via: '1.1 varnish',
+323 silly registry.get     'last-modified': 'Tue, 11 Mar 2014 09:45:33 GMT',
+323 silly registry.get     'cache-control': 'max-age=1',
+323 silly registry.get     etag: '"89DRIOZVGYTI99EC7UF657LWP"',
+323 silly registry.get     'x-served-by': 'cache-sv60-SJC3',
+323 silly registry.get     'x-cache': 'HIT',
+323 silly registry.get     'x-cache-hits': '1',
+323 silly registry.get     'x-timer': 'S1394531133.438425541,VS0,VE71',
+323 silly registry.get     vary: 'Accept',
+323 silly registry.get     'content-length': '0',
+323 silly registry.get     'keep-alive': 'timeout=10, max=50',
+323 silly registry.get     connection: 'Keep-Alive' } ]
+324 verbose etag minimist from cache
+325 silly addNameRange number 2 { name: 'minimist', range: '>=0.0.1-0 <0.1.0-0', hasData: true }
+326 silly addNameRange versions [ 'minimist',
+326 silly addNameRange   [ '0.0.0',
+326 silly addNameRange     '0.0.1',
+326 silly addNameRange     '0.0.2',
+326 silly addNameRange     '0.0.3',
+326 silly addNameRange     '0.0.4',
+326 silly addNameRange     '0.0.5',
+326 silly addNameRange     '0.0.6',
+326 silly addNameRange     '0.0.7',
+326 silly addNameRange     '0.0.8' ] ]
+327 verbose addNamed [ 'minimist', '0.0.8' ]
+328 verbose addNamed [ '0.0.8', '0.0.8' ]
+329 silly lockFile 22c6b485-minimist-0-0-8 minimist@0.0.8
+330 verbose lock minimist@0.0.8 /home/arpit/.npm/22c6b485-minimist-0-0-8.lock
+331 silly lockFile 22c6b485-minimist-0-0-8 minimist@0.0.8
+332 silly lockFile 22c6b485-minimist-0-0-8 minimist@0.0.8
+333 silly lockFile 7a855a96-minimist-0-0-1 minimist@~0.0.1
+334 silly lockFile 7a855a96-minimist-0-0-1 minimist@~0.0.1
+335 http 304 https://registry.npmjs.org/wordwrap
+336 silly registry.get cb [ 304,
+336 silly registry.get   { date: 'Tue, 11 Mar 2014 09:45:33 GMT',
+336 silly registry.get     server: 'Apache',
+336 silly registry.get     via: '1.1 varnish',
+336 silly registry.get     'last-modified': 'Tue, 11 Mar 2014 09:45:33 GMT',
+336 silly registry.get     'cache-control': 'max-age=1',
+336 silly registry.get     etag: '"9R7I44BD3I78GW45KU615ZLPN"',
+336 silly registry.get     'x-served-by': 'cache-sv63-SJC3',
+336 silly registry.get     'x-cache': 'HIT',
+336 silly registry.get     'x-cache-hits': '1',
+336 silly registry.get     'x-timer': 'S1394531133.446487904,VS0,VE142',
+336 silly registry.get     vary: 'Accept',
+336 silly registry.get     'content-length': '0',
+336 silly registry.get     'keep-alive': 'timeout=10, max=50',
+336 silly registry.get     connection: 'Keep-Alive' } ]
+337 verbose etag wordwrap from cache
+338 silly addNameRange number 2 { name: 'wordwrap', range: '>=0.0.2-0 <0.1.0-0', hasData: true }
+339 silly addNameRange versions [ 'wordwrap', [ '0.0.1', '0.0.2' ] ]
+340 verbose addNamed [ 'wordwrap', '0.0.2' ]
+341 verbose addNamed [ '0.0.2', '0.0.2' ]
+342 silly lockFile 24a694c8-wordwrap-0-0-2 wordwrap@0.0.2
+343 verbose lock wordwrap@0.0.2 /home/arpit/.npm/24a694c8-wordwrap-0-0-2.lock
+344 silly lockFile 24a694c8-wordwrap-0-0-2 wordwrap@0.0.2
+345 silly lockFile 24a694c8-wordwrap-0-0-2 wordwrap@0.0.2
+346 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+347 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+348 silly resolved [ { name: 'minimist',
+348 silly resolved     version: '0.0.8',
+348 silly resolved     description: 'parse argument options',
+348 silly resolved     main: 'index.js',
+348 silly resolved     devDependencies: { tape: '~1.0.4', tap: '~0.4.0' },
+348 silly resolved     scripts: { test: 'tap test/*.js' },
+348 silly resolved     testling: { files: 'test/*.js', browsers: [Object] },
+348 silly resolved     repository: { type: 'git', url: 'git://github.com/substack/minimist.git' },
+348 silly resolved     homepage: 'https://github.com/substack/minimist',
+348 silly resolved     keywords: [ 'argv', 'getopt', 'parser', 'optimist' ],
+348 silly resolved     author:
+348 silly resolved      { name: 'James Halliday',
+348 silly resolved        email: 'mail@substack.net',
+348 silly resolved        url: 'http://substack.net' },
+348 silly resolved     license: 'MIT',
+348 silly resolved     readme: '# minimist\n\nparse argument options\n\nThis module is the guts of optimist\'s argument parser without all the\nfanciful decoration.\n\n[![browser support](https://ci.testling.com/substack/minimist.png)](http://ci.testling.com/substack/minimist)\n\n[![build status](https://secure.travis-ci.org/substack/minimist.png)](http://travis-ci.org/substack/minimist)\n\n# example\n\n``` js\nvar argv = require(\'minimist\')(process.argv.slice(2));\nconsole.dir(argv);\n```\n\n```\n$ node example/parse.js -a beep -b boop\n{ _: [], a: \'beep\', b: \'boop\' }\n```\n\n```\n$ node example/parse.js -x 3 -y 4 -n5 -abc --beep=boop foo bar baz\n{ _: [ \'foo\', \'bar\', \'baz\' ],\n  x: 3,\n  y: 4,\n  n: 5,\n  a: true,\n  b: true,\n  c: true,\n  beep: \'boop\' }\n```\n\n# methods\n\n``` js\nvar parseArgs = require(\'minimist\')\n```\n\n## var argv = parseArgs(args, opts={})\n\nReturn an argument object `argv` populated with the array arguments from `args`.\n\n`argv._` contains all the arguments that didn\'t have an option associated with\nthem.\n\nNumeric-looking arguments will be returned as numbers unless `opts.string` or\n`opts.boolean` is set for that argument name.\n\nAny arguments after `\'--\'` will not be parsed and will end up in `argv._`.\n\noptions can be:\n\n* `opts.string` - a string or array of strings argument names to always treat as\nstrings\n* `opts.boolean` - a string or array of strings to always treat as booleans\n* `opts.alias` - an object mapping string names to strings or arrays of string\nargument names to use as aliases\n* `opts.default` - an object mapping string argument names to default values\n\n# install\n\nWith [npm](https://npmjs.org) do:\n\n```\nnpm install minimist\n```\n\n# license\n\nMIT\n',
+348 silly resolved     readmeFilename: 'readme.markdown',
+348 silly resolved     bugs: { url: 'https://github.com/substack/minimist/issues' },
+348 silly resolved     _id: 'minimist@0.0.8',
+348 silly resolved     _from: 'minimist@~0.0.1' },
+348 silly resolved   { name: 'wordwrap',
+348 silly resolved     description: 'Wrap those words. Show them at what columns to start and stop.',
+348 silly resolved     version: '0.0.2',
+348 silly resolved     repository:
+348 silly resolved      { type: 'git',
+348 silly resolved        url: 'git://github.com/substack/node-wordwrap.git' },
+348 silly resolved     main: './index.js',
+348 silly resolved     keywords: [ 'word', 'wrap', 'rule', 'format', 'column' ],
+348 silly resolved     directories: { lib: '.', example: 'example', test: 'test' },
+348 silly resolved     scripts: { test: 'expresso' },
+348 silly resolved     devDependencies: { expresso: '=0.7.x' },
+348 silly resolved     engines: { node: '>=0.4.0' },
+348 silly resolved     license: 'MIT/X11',
+348 silly resolved     author:
+348 silly resolved      { name: 'James Halliday',
+348 silly resolved        email: 'mail@substack.net',
+348 silly resolved        url: 'http://substack.net' },
+348 silly resolved     readme: 'wordwrap\n========\n\nWrap your words.\n\nexample\n=======\n\nmade out of meat\n----------------\n\nmeat.js\n\n    var wrap = require(\'wordwrap\')(15);\n    console.log(wrap(\'You and your whole family are made out of meat.\'));\n\noutput:\n\n    You and your\n    whole family\n    are made out\n    of meat.\n\ncentered\n--------\n\ncenter.js\n\n    var wrap = require(\'wordwrap\')(20, 60);\n    console.log(wrap(\n        \'At long last the struggle and tumult was over.\'\n        + \' The machines had finally cast off their oppressors\'\n        + \' and were finally free to roam the cosmos.\'\n        + \'\\n\'\n        + \'Free of purpose, free of obligation.\'\n        + \' Just drifting through emptiness.\'\n        + \' The sun was just another point of light.\'\n    ));\n\noutput:\n\n                        At long last the struggle and tumult\n                        was over. The machines had finally cast\n                        off their oppressors and were finally\n                        free to roam the cosmos.\n                        Free of purpose, free of obligation.\n                        Just drifting through emptiness. The\n                        sun was just another point of light.\n\nmethods\n=======\n\nvar wrap = require(\'wordwrap\');\n\nwrap(stop), wrap(start, stop, params={mode:"soft"})\n---------------------------------------------------\n\nReturns a function that takes a string and returns a new string.\n\nPad out lines with spaces out to column `start` and then wrap until column\n`stop`. If a word is longer than `stop - start` characters it will overflow.\n\nIn "soft" mode, split chunks by `/(\\S+\\s+/` and don\'t break up chunks which are\nlonger than `stop - start`, in "hard" mode, split chunks with `/\\b/` and break\nup chunks longer than `stop - start`.\n\nwrap.hard(start, stop)\n----------------------\n\nLike `wrap()` but with `params.mode = "hard"`.\n',
+348 silly resolved     readmeFilename: 'README.markdown',
+348 silly resolved     bugs: { url: 'https://github.com/substack/node-wordwrap/issues' },
+348 silly resolved     _id: 'wordwrap@0.0.2',
+348 silly resolved     _from: 'wordwrap@~0.0.2' } ]
+349 info install minimist@0.0.8 into /home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist
+350 info install wordwrap@0.0.2 into /home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist
+351 info installOne minimist@0.0.8
+352 info installOne wordwrap@0.0.2
+353 info /home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist/node_modules/minimist unbuild
+354 info /home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist/node_modules/wordwrap unbuild
+355 verbose tar unpack /home/arpit/.npm/minimist/0.0.8/package.tgz
+356 silly lockFile 9634da8d-s-optimist-node-modules-minimist tar:///home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist/node_modules/minimist
+357 verbose lock tar:///home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist/node_modules/minimist /home/arpit/.npm/9634da8d-s-optimist-node-modules-minimist.lock
+358 silly lockFile f87ea0b3-t-npm-minimist-0-0-8-package-tgz tar:///home/arpit/.npm/minimist/0.0.8/package.tgz
+359 verbose lock tar:///home/arpit/.npm/minimist/0.0.8/package.tgz /home/arpit/.npm/f87ea0b3-t-npm-minimist-0-0-8-package-tgz.lock
+360 verbose tar unpack /home/arpit/.npm/wordwrap/0.0.2/package.tgz
+361 silly lockFile d4c377e7-s-optimist-node-modules-wordwrap tar:///home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist/node_modules/wordwrap
+362 verbose lock tar:///home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist/node_modules/wordwrap /home/arpit/.npm/d4c377e7-s-optimist-node-modules-wordwrap.lock
+363 silly lockFile 926f015f-t-npm-wordwrap-0-0-2-package-tgz tar:///home/arpit/.npm/wordwrap/0.0.2/package.tgz
+364 verbose lock tar:///home/arpit/.npm/wordwrap/0.0.2/package.tgz /home/arpit/.npm/926f015f-t-npm-wordwrap-0-0-2-package-tgz.lock
+365 silly gunzTarPerm modes [ '755', '644' ]
+366 silly gunzTarPerm modes [ '755', '644' ]
+367 silly gunzTarPerm extractEntry package.json
+368 silly gunzTarPerm extractEntry LICENSE
+369 silly gunzTarPerm extractEntry index.js
+370 silly gunzTarPerm extractEntry .travis.yml
+371 silly gunzTarPerm extractEntry example/parse.js
+372 silly gunzTarPerm extractEntry readme.markdown
+373 silly gunzTarPerm extractEntry test/dash.js
+374 silly gunzTarPerm extractEntry test/default_bool.js
+375 silly gunzTarPerm extractEntry test/dotted.js
+376 silly gunzTarPerm extractEntry test/long.js
+377 silly gunzTarPerm extractEntry test/parse.js
+378 silly gunzTarPerm extractEntry test/parse_modified.js
+379 silly gunzTarPerm extractEntry test/short.js
+380 silly gunzTarPerm extractEntry test/whitespace.js
+381 silly gunzTarPerm extractEntry package.json
+382 silly gunzTarPerm extractEntry .npmignore
+383 silly gunzTarPerm extractEntry index.js
+384 silly gunzTarPerm extractEntry README.markdown
+385 silly gunzTarPerm extractEntry example/center.js
+386 silly gunzTarPerm extractEntry example/meat.js
+387 silly gunzTarPerm extractEntry test/break.js
+388 silly gunzTarPerm extractEntry test/wrap.js
+389 silly gunzTarPerm extractEntry test/idleness.txt
+390 silly lockFile 9634da8d-s-optimist-node-modules-minimist tar:///home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist/node_modules/minimist
+391 silly lockFile 9634da8d-s-optimist-node-modules-minimist tar:///home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist/node_modules/minimist
+392 silly lockFile f87ea0b3-t-npm-minimist-0-0-8-package-tgz tar:///home/arpit/.npm/minimist/0.0.8/package.tgz
+393 silly lockFile f87ea0b3-t-npm-minimist-0-0-8-package-tgz tar:///home/arpit/.npm/minimist/0.0.8/package.tgz
+394 info preinstall minimist@0.0.8
+395 verbose readDependencies using package.json deps
+396 verbose readDependencies using package.json deps
+397 silly resolved []
+398 verbose about to build /home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist/node_modules/minimist
+399 info build /home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist/node_modules/minimist
+400 verbose linkStuff [ false,
+400 verbose linkStuff   false,
+400 verbose linkStuff   false,
+400 verbose linkStuff   '/home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist/node_modules' ]
+401 info linkStuff minimist@0.0.8
+402 verbose linkBins minimist@0.0.8
+403 verbose linkMans minimist@0.0.8
+404 verbose rebuildBundles minimist@0.0.8
+405 info install minimist@0.0.8
+406 info postinstall minimist@0.0.8
+407 silly lockFile d4c377e7-s-optimist-node-modules-wordwrap tar:///home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist/node_modules/wordwrap
+408 silly lockFile d4c377e7-s-optimist-node-modules-wordwrap tar:///home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist/node_modules/wordwrap
+409 silly lockFile 926f015f-t-npm-wordwrap-0-0-2-package-tgz tar:///home/arpit/.npm/wordwrap/0.0.2/package.tgz
+410 silly lockFile 926f015f-t-npm-wordwrap-0-0-2-package-tgz tar:///home/arpit/.npm/wordwrap/0.0.2/package.tgz
+411 info preinstall wordwrap@0.0.2
+412 verbose readDependencies using package.json deps
+413 verbose readDependencies using package.json deps
+414 silly resolved []
+415 verbose about to build /home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist/node_modules/wordwrap
+416 info build /home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist/node_modules/wordwrap
+417 verbose linkStuff [ false,
+417 verbose linkStuff   false,
+417 verbose linkStuff   false,
+417 verbose linkStuff   '/home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist/node_modules' ]
+418 info linkStuff wordwrap@0.0.2
+419 verbose linkBins wordwrap@0.0.2
+420 verbose linkMans wordwrap@0.0.2
+421 verbose rebuildBundles wordwrap@0.0.2
+422 info install wordwrap@0.0.2
+423 info postinstall wordwrap@0.0.2
+424 verbose about to build /home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist
+425 info build /home/arpit/code/ang-news/node_modules/grunt-karma/node_modules/optimist
+426 verbose linkStuff [ false,
+426 verbose linkStuff   false,
+426 verbose linkStuff   false,
+426 verbose linkStuff   '/home/arpit/code/ang-news/node_modules/grunt-karma/node_modules' ]
+427 info linkStuff optimist@0.6.1
+428 verbose linkBins optimist@0.6.1
+429 verbose linkMans optimist@0.6.1
+430 verbose rebuildBundles optimist@0.6.1
+431 verbose rebuildBundles [ 'minimist', 'wordwrap' ]
+432 info install optimist@0.6.1
+433 info postinstall optimist@0.6.1
+434 verbose about to build /home/arpit/code/ang-news/node_modules/grunt-karma
+435 info build /home/arpit/code/ang-news/node_modules/grunt-karma
+436 verbose linkStuff [ false, false, false, '/home/arpit/code/ang-news/node_modules' ]
+437 info linkStuff grunt-karma@0.6.2
+438 verbose linkBins grunt-karma@0.6.2
+439 verbose linkMans grunt-karma@0.6.2
+440 verbose rebuildBundles grunt-karma@0.6.2
+441 verbose rebuildBundles [ 'optimist' ]
+442 info install grunt-karma@0.6.2
+443 info postinstall grunt-karma@0.6.2
+444 verbose readDependencies using package.json deps
+445 verbose already installed skipping karma@~0.10.0 /home/arpit/code/ang-news
+446 silly resolved []
+447 error peerinvalid The package karma does not satisfy its siblings' peerDependencies requirements!
+447 error peerinvalid Peer karma-ng-html2js-preprocessor@0.1.0 wants karma@>=0.9
+447 error peerinvalid Peer karma-ng-scenario@0.1.0 wants karma@>=0.9
+447 error peerinvalid Peer grunt-karma@0.6.2 wants karma@~0.10.0
+448 error System Linux 3.8.0-31-generic
+449 error command "/usr/bin/node" "/usr/bin/npm" "install" "grunt-karma" "karma-ng-html2js-preprocessor" "karma-ng-scenario" "--save-dev"
+450 error cwd /home/arpit/code/ang-news
+451 error node -v v0.10.21
+452 error npm -v 1.3.11
+453 error code EPEERINVALID
+454 verbose exit [ 1, true ]
